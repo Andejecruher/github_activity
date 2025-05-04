@@ -31,13 +31,13 @@ Esto instalará el comando `github-activity` en tu sistema.
 ## 💻 Uso
 
 ```bash
-github-activity <nombre_de_usuario>
+python -m github_activity <usuario>
 ```
 
 ### Ejemplo:
 
 ```bash
-github-activity torvalds
+python -m github_activity torvalds
 ```
 
 ### Salida esperada:
@@ -55,7 +55,7 @@ github-activity torvalds
 Este proyecto no usa dependencias externas ni frameworks, por lo que puedes probar directamente ejecutando el script:
 
 ```bash
-python github_activity/cli.py <usuario>
+python -m github_activity <usuario>
 ```
 
 ---
@@ -65,7 +65,7 @@ python github_activity/cli.py <usuario>
 ```
 github_activity/
 ├── github_activity/
-│   └── cli.py
+│   └── __main__.py
 ├── setup.py
 └── README.md
 ```
