@@ -19,7 +19,7 @@
 ### 🔧 Instalación local (modo editable para desarrollo)
 
 ```bash
-git clone https://github.com/tuusuario/github-activity-cli.git
+git clone https://github.com/andejecruher/github-activity-cli.git
 cd github-activity-cli
 pip install -e .
 ````
