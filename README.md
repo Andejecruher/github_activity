@@ -2,6 +2,10 @@
 
 **Una herramienta de línea de comandos para visualizar la actividad pública reciente de un usuario en GitHub.**
 
+## URL del proyecto:
+
+[https://roadmap.sh/projects/github-user-activity](https://roadmap.sh/projects/github-user-activity)
+
 ---
 
 ## 🚀 Características
@@ -22,7 +26,7 @@
 git clone https://github.com/andejecruher/github-activity-cli.git
 cd github-activity-cli
 pip install -e .
-````
+```
 
 Esto instalará el comando `github-activity` en tu sistema.
 
@@ -81,4 +85,3 @@ MIT © Andejecruher
 ## 🌐 Créditos
 
 Este proyecto utiliza la [GitHub REST API](https://docs.github.com/en/rest) para obtener los datos públicos de usuario.
-
